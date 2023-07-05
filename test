@@ -2,7 +2,7 @@ if(command === "at") {
 const embed = new Discord.RichEmbed()
     .setColor('#34b1eb')
     .setTitle('Trackmania Author Times')
-    .setDescription('Summer 2023 Season')
+    .setDescription('Summer 2023 Season: White, Green, and Blue')
     .setThumbnail('https://upload.wikimedia.org/wikipedia/en/3/37/Logo_of_Trackmania_%282020%29.png')
     .addField(':white_large_square:','White')
     .addField('01','23.997',true)
@@ -25,6 +25,15 @@ const embed = new Discord.RichEmbed()
     .addField('14','44.006',true)
     .addField('15','45.396',true)
     .addField('\u200b', '\u200b')
+	  .setTimestamp();
+}
+
+if(command === "at2") {
+const embed = new Discord.RichEmbed()
+    .setColor('#34b1eb')
+    .setTitle('Trackmania Author Times')
+    .setDescription('Summer 2023 Season: Red and Black')
+    .setThumbnail('https://upload.wikimedia.org/wikipedia/en/3/37/Logo_of_Trackmania_%282020%29.png')
     .addField(':red_square:','Red')
     .addField('16','45.646',true)
 	  .addField('17','41.111',true)
@@ -39,3 +48,5 @@ const embed = new Discord.RichEmbed()
     .addField('24','42.824',true)
     .addField('25','57.001',true)
 	  .setTimestamp();
+}
+
