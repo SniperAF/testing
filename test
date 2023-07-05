@@ -26,6 +26,8 @@ const embed = new Discord.RichEmbed()
     .addField('15','45.396',true)
     .addField('\u200b', '\u200b')
 	  .setTimestamp();
+
+	message.channel.send(embed);
 }
 
 if(command === "at2") {
@@ -48,5 +50,7 @@ const embed = new Discord.RichEmbed()
     .addField('24','42.824',true)
     .addField('25','57.001',true)
 	  .setTimestamp();
+
+	message.channel.send(embed);
 }
 
