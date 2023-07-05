@@ -1,9 +1,8 @@
 if(command === "at") {
 const embed = new Discord.RichEmbed()
-    .setColor('#7f2096')
-    .setTitle('Trovec\'s commands')
-    .setAuthor('Developed by Covert')
-    .setDescription('Tradkmania Summer 2023 Author Times')
+    .setColor('#34b1eb')
+    .setTitle('Trackmania Author Times')
+    .setDescription('Summer 2023 Season')
     .setThumbnail('https://upload.wikimedia.org/wikipedia/en/3/37/Logo_of_Trackmania_%282020%29.png')
     .addField(':white_large_square:','White')
     .addField('01','23.997',true)
@@ -40,6 +39,3 @@ const embed = new Discord.RichEmbed()
     .addField('24','42.824',true)
     .addField('25','57.001',true)
 	  .setTimestamp();
-
-    message.channel.send(embed);
-}   
